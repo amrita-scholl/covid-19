@@ -1,0 +1,16 @@
+{
+	"name": "Snowflake2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "KVNWSTZ-MK80736",
+			"user": "amrita06",
+			"database": "DEMO_DB",
+			"warehouse": "DEMO",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQyREUzNTcwLUYzRDQtNEExNi1BRjY0LURBQjMzMjdFODFGM181MzI4OGU1NC1hMWUzLTQyN2EtYTdjMC0yMjU5ZjhmOTNhYjgiDQp9"
+		}
+	}
+}
