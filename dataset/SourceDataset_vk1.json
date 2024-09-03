@@ -1,0 +1,23 @@
+{
+	"name": "SourceDataset_vk1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MariaDB1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"cw_tableName": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "MariaDBTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": {
+				"value": "@dataset().cw_tableName",
+				"type": "Expression"
+			}
+		}
+	}
+}
